@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>calculadora fatorial</title>
+
+        <script src="script.js" charset="utf-8" defer></script>
+    </head>
+    <body>
+        <h1>Calculadora fatorial!</h1>
+        <form>
+            <fieldset>
+                <legend>Entrada de dados</legend>
+                
+                <label for="valueInput">Digite um valor:</label>
+                <input id="inputField" type="number" min="0" />
+                <button type="button" id="calculateButton">Calcular</button>
+                <p id ="errorDisplay" style="color: red; display: none;">Por favor, digite um número inteiro positivo</p>
+            </fieldset>
+        </form>
+        <p>O fatorial do valor digitado é: <span id="resultDisplay" style="font-weight: bold;"></span></p>
+    </body>
+</html>
